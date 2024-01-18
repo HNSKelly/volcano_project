@@ -1,0 +1,297 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+body{
+  background-color: aliceblue;
+
+}
+
+/* Header and navigation bar section*/
+
+header{
+  background-color: rgb(181, 236, 218);
+  color: black;
+  padding: 10px 20px;
+}
+
+nav {
+  display: inline-block;
+  width: 25%;
+  text-align: left;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a{
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 2px;
+  transition: 0.3s ease all;
+}
+
+nav ul li a:hover{
+  background-color: rgb(179, 219, 219);
+}
+
+/* Landing page (Home) styling*/
+
+.landing_content{
+  padding-top: 25px;
+  color: black;
+  overflow: hidden;
+  text-align: center;
+}
+
+.landing_title{
+  font-size: 70px;
+  margin: 0;
+  
+  
+
+}
+
+.landing_text{
+  font-size: 40px;
+  font-style: italic;
+  
+}
+
+.landing-page-container {
+  background-color: rgb(192, 223, 210);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+  overflow: hidden;
+  
+}
+
+.landing-page-col {
+  background-color: rgb(192, 223, 210);
+  overflow: hidden;
+  
+}
+
+.landing_picture{
+  width: 100%;
+  min-height: 1000px;
+  text-align: center;
+  background-image: url("/public/img/volcano.jpeg");
+  background-size: cover;
+  border-radius: 5px;
+  padding: 50px;
+  
+}
+
+/*### Volcano List page styling ###*/
+
+.volcano_page{
+  text-align: center;
+  display: block;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.volcano_content {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.grid-container {
+  background-color: rgb(192, 223, 210);
+  border-radius: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  overflow: hidden;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+}
+
+
+/* ag-grid table*/
+.ag-theme-balham {
+  margin-left: auto;
+  padding: 0%;
+  overflow: hidden;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.search-group-row {
+  /*background-color: rgb(192, 223, 210);*/
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: rgb(192, 223, 210);
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-bar-col {
+  overflow: hidden;
+  justify-content: center;
+  background-color: rgb(212, 216, 214);
+  margin: 5px;
+}
+
+
+.country-search {
+  /*background-color: rgb(192, 223, 210);*/
+  background-color: aqua;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.country-text-searchbar {
+  background-color: brown;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-group-col {
+  margin-left: 33.5%;
+}
+
+.multi-select-col {
+  background-color: blueviolet;
+}
+
+.multi-select-distance {
+  width: 50%;
+  
+  
+}
+
+
+
+.search-bar-group {
+  justify-content: right;
+  width: 50%;
+}
+
+.search-bar-button {
+  margin-right: 45%;
+}
+
+.ag-grid-row {
+  background-color: rgb(192, 223, 210);
+  justify-content: center;
+}
+
+.ag-grid-col {
+  background-color: rgb(192, 223, 210);
+  text-align: left;
+  margin: 20px;
+  
+  
+}
+
+.ag-table {
+  margin-left: 0%;
+  padding: 5px;
+}
+
+/*### Volcano Data page styling ###*/
+
+.volcano-data-container {
+  background-color: rgb(192, 223, 210);
+  margin-top: 3%;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+}
+
+.volcano-data-row {
+  background-color: rgb(192, 223, 210);
+  padding: 10px;
+}
+
+.volcano-data-col {
+  background-color: rgb(192, 223, 210);
+  padding: 10px;
+}
+
+.pigeon-map-col {
+  background-color: rgb(192, 223, 210);
+  padding: 10px;
+}
+
+/* Population graph styling */
+
+.population-graph-col {
+  background-color: white;
+  box-shadow: 3px 3px 3px  lightgrey;
+}
+
+/* Login page styling */
+
+.login-container{
+  background-color: rgb(192, 223, 210);
+  border-radius: 5px;
+  margin-top: 5%;
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 35px;
+  padding-top: 35px;
+  padding-left: 5%;
+  
+}
+
+.login-parent-formgroup {
+  margin-left: 33.5%;
+}
+
+.login_content{
+  text-align: center;
+  padding: 15px;
+}
+
+.email-address-form {
+  width: 50%;
+}
+
+.password-form {
+  width: 50%;
+}
+
+/* Register page styling */
+.register-page-container{
+  background-color: rgb(192, 223, 210);
+  border-radius: 5px;
+  margin-top: 5%;
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 35px;
+  padding-top: 35px;
+  padding-left: 5%;
+}
+
+.register-parent-formgroup {
+  margin-left: 33.5%;
+}
