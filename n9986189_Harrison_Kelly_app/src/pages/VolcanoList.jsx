@@ -16,7 +16,7 @@ export default function VolcanoList(){
     );
 }
 
-const API_URL = "http://sefdb02.qut.edu.au:3001/" //No longer valid
+const API_URL = "/No longer valid"
 
 const VolcanoContent = () => {
     const [rowData, setRowData] = useState([]);

@@ -6,7 +6,7 @@ import Form from 'react-bootstrap/Form';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-const API_URL = "http://sefdb02.qut.edu.au:3001";
+const API_URL = "/No longer valid";
 
 
 export default function Login(){

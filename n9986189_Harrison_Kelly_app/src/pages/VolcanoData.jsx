@@ -34,7 +34,7 @@ const VolcanoData = () => {
     const [unauthedData, setUnauthedData] = useState({});
 
     useEffect(()=> {
-        fetch(`http://sefdb02.qut.edu.au:3001/volcano/${id}`)
+        fetch(`http:/No longer valid/volcano/${id}`)
         .then(res => res.json())
         .then(res => {
             setUnauthedData(res)
@@ -42,7 +42,7 @@ const VolcanoData = () => {
     }, [])
 
     useEffect(() => {
-        fetch(`http://sefdb02.qut.edu.au:3001/volcano/${id}`,{
+        fetch(`http:/No longer valid/volcano/${id}`,{
             method: "GET",
             headers:{
                 accept: "application/json",
